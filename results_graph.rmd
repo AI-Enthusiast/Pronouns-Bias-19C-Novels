@@ -1,0 +1,50 @@
+---
+title: "Exploring Gender Pronoun Distribution and Character Identification in 19th Century Novels - Results Graph"
+author: "Cormac Dacker"
+output: html_notebook
+---
+
+      "Book: Pride and Prejudice\n",
+            "Total Accuracy: 72.13%\n",
+            "Female Accuracy: 83.33%\n",
+            "Male Accuracy: 73.68%\n",
+
+        "Book: Frakenstein\n",
+            "Total Accuracy: 100.0%\n",
+            "Female Accuracy: 100.0%\n",
+            "Male Accuracy: 100.0%\n",
+
+        "Book: Wuthering Heights\n",
+            "Total Accuracy: 64.52%\n",
+            "Female Accuracy: 57.14%\n",
+            "Male Accuracy: 92.31%\n",
+
+        "Book: All Books\n",
+            "Total Accuracy: 72.28%\n",
+            "Female Accuracy: 76.92%\n",
+            "Male Accuracy: 84.62%\n",
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+```{r}
+# Create a data frame with the data
+data <- data.frame(
+  book = c("Pride and Prejudice", "Frakenstein", "Wuthering Heights", "All Books"),
+  total_accuracy = c(72.13, 100.0, 64.52, 72.28),
+  female_accuracy = c(83.33, 100.0, 57.14, 76.92),
+  male_accuracy = c(73.68, 100.0, 92.31, 84.62))
+```
+```{r}
+long_data <- data %>%
+  gather(key = "category", value = "accuracy", -book)
+```
+```{r}
+ggplot(long_data, aes(x = book, y = accuracy, fill = category)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  # scale_fill_manual(values = c("cyan4", "red", "green")) +
+  labs(title = "Gender Prediction Accuracy in 19th Century Novels"
+    , x = "Book", y = "Accuracy (%)") +
+  theme_minimal()
+```
