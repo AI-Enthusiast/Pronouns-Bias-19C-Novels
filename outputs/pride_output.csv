@@ -1,0 +1,68 @@
+name,prediction,actual
+Mary,0,0
+Austen,0,0
+Wickham,1,1
+Jane,0,0
+Darcy,1,1
+Elizabeth,0,0
+Bennet,0,0
+Collins,1,1
+"Mrs
+Bennet",1,0
+Mrs Bennet,0,0
+Mr Collins,1,1
+Lady Catherine de Bourgh,1,0
+Lady Catherine,0,0
+Kitty,0,0
+Mrs Bennet’s,0,0
+Bingleys,0,1
+Pemberley,0,-1
+Mr Bingley,0,1
+Lizzy,0,0
+Mrs Long,1,0
+Bingley,0,1
+William,1,1
+Lydia,0,0
+Mrs Hurst,0,0
+Catherine,1,0
+Maria Lucas,0,0
+Miss Bingley,0,0
+Miss Bennet,1,0
+William Lucas,1,1
+Lucas Lodge,1,1
+Lucas,0,1
+Robinson,1,1
+Forster,1,1
+Meryton,1,-1
+Mrs Philips,0,0
+"Miss
+Bennet",0,0
+Charles,1,1
+Jones,0,1
+Netherfield,0,-1
+Gardiner,1,1
+Miss de Bourgh,0,0
+Denny,1,1
+"Lady Catherine de
+Bourgh",1,0
+Mr Wickham,1,1
+"Mr
+Wickham",0,1
+"Lady
+Catherine",0,0
+Rosings,0,1
+De Bourgh,0,0
+George Wickham,1,1
+Mrs Jenkinson,0,0
+Mrs Gardiner,0,0
+Mrs Gardiner’s,0,0
+Kent,0,-1
+Maria,0,0
+Mrs Collins,0,0
+Mrs Collins’s,0,0
+Fitzwilliam,1,1
+"Mrs
+Collins",0,0
+Mrs Younge,0,0
+Mrs Forster,0,0
+Mrs Reynolds,0,0

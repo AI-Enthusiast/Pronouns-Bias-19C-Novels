@@ -1,0 +1,33 @@
+name,prediction,actual
+Mr Heathcliff,1,1
+Lockwood,1,1
+Joseph,1,1
+Heathcliff,1,1
+Mrs Heathcliff,0,0
+Hareton,1,1
+Earnshaw,1,1
+Catherine Earnshaw,1,0
+Catherine Linton,0,0
+Linton,1,1
+Catherine,0,0
+Sabbath,1,-1
+Cathy,1,0
+Mrs Dean,0,0
+Mrs Linton’s,1,0
+Mrs Earnshaw,1,0
+Mrs Linton,0,0
+Edgar,1,1
+Isabella,0,0
+Skulker,0,-1
+Edgar Linton,1,1
+Isabella Linton,0,0
+Ellen,1,0
+Kenneth,1,1
+Miss,0,-1
+Miss Catherine,1,0
+"Edgar
+Linton",1,1
+Ellen Dean,0,0
+Mr Edgar,0,1
+Minny,0,0
+Green,1,1
