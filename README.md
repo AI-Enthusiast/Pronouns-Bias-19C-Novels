@@ -1,7 +1,7 @@
 # Exploring Gender Pronoun Distribution and Character Identification in 19th Century Novels
 #### Cormac Dacker, Tyler Gomez Riddick, Avery Pike
-
 ## Introduction
+<img src="slides/1.jpg?raw=true"/>
 
 Personal pronouns are a critical element of language that can provide insights into character portrayal and gender representation in literature. This study investigates two primary questions:
 1. Is there a statistically significant difference between the frequencies of subject and object pronouns for feminine and masculine personal pronouns?
@@ -10,6 +10,7 @@ Personal pronouns are a critical element of language that can provide insights i
 To address these questions, we analyze subjective pronouns (he, she) and objective pronouns (him, her). While "him" is straightforward to identify as an objective pronoun, "her" can be either an objective pronoun or a possessive adjective. To distinguish between these usages, we implemented a function for part-of-speech (POS) tagging that identifies instances of "her" not followed by a noun (NN or NNS type) as objective, and the rest as possessive. We also considered possessive adjectives (his, her) and possessive pronouns (his, hers), treating "his" as both an adjective and a pronoun for simplicity.
 
 ## Methodology
+<img src="slides/2.jpg?raw=true"/>
 
 ### Datasets
 
@@ -34,11 +35,15 @@ We utilized SparkNLP for POS-tagging and Spacy for Named-Entity Recognition (NER
 8. **Accuracy Calculation**: Compared true and predicted values to determine accuracy, including total accuracy, male accuracy, and female accuracy.
 
 ## Hypotheses
+<img src="slides/3.jpg?raw=true"/>
+
 
 1. Given that all books in the corpus are authored by women, we hypothesized no statistical difference between the counts of subjective male pronouns, subjective female pronouns, objective male pronouns, and objective female pronouns.
 2. We hypothesized that gender prediction based on pronoun counts in relevant sentences would be more accurate than a random guess.
 
 ## Evaluation
+<img src="slides/4.jpg?raw=true"/>
+
 
 ![Gender Prediction Accuracy](plot.png)
 
@@ -52,6 +57,8 @@ Accuracy was calculated by dividing the number of correct predictions by the tot
 We conducted statistical tests to compare the frequencies of male and female subjective and objective pronouns. Our findings indicated no statistically significant differences between the frequencies of male and female subjective pronouns (p-value=0.74), nor between male and female objective pronouns (p=0.09). It is important to note that though neither of these results are statistically significant, the p-value is pretty close to the standard accepted threshold of 5%. 
 
 ## Conclusions and Future Research
+<img src="slides/5.jpg?raw=true"/>
+
 
 Our initial hypothesis that a corpus of entirely women authors would lead to no difference between the frequency of pronouns for each gender was supported by our model. We also had success with our predictive accuracy of gender counts. The study supports the notion that the gender of the author affects not only the frequency of respective gender pronouns, but also predictive accuracy within the corpus. Further work can be done to expand the scope of pronoun detection, which may increase or decrease accuracy (though we predict it will improve accuracy). 
 
