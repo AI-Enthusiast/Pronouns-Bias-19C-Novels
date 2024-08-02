@@ -1,7 +1,9 @@
 # Exploring Gender Pronoun Distribution and Character Identification in 19th Century Novels
 #### Cormac Dacker, Tyler Gomez Riddick, Avery Pike
+<img src="slides/award.jpg?raw=true"/>
+
 ## Introduction
-<img src="slides/1.jpg?raw=true"/>
+<img src="slides/1.jpg?raw=true"/>ad
 
 Personal pronouns are a critical element of language that can provide insights into character portrayal and gender representation in literature. This study investigates two primary questions:
 1. Is there a statistically significant difference between the frequencies of subject and object pronouns for feminine and masculine personal pronouns?
